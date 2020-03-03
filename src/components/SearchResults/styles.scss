@@ -1,0 +1,32 @@
+.search-results {
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 15px;
+
+    &__left {
+      width: 90px;
+    }
+
+    &__details {
+      margin-left: 15px;
+    }
+
+    &__image {
+      width: 90px;
+    }
+
+    &__no-image {
+      width: 90px;
+      height: 126px;
+      background-color: grey;
+    }
+
+    &__description {
+      font-size: 13px;
+    }
+  }
+}

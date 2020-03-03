@@ -1,0 +1,46 @@
+{
+  "name": "react-suspense",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "core-js": "3",
+    "express": "^4.17.1",
+    "query-string": "^6.9.0",
+    "react": "0.0.0-experimental-5de5b6150",
+    "react-dom": "0.0.0-experimental-5de5b6150",
+    "react-hot-loader": "^4.12.18",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.1.2",
+    "regenerator-runtime": "^0.13.3",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@hot-loader/react-dom": "^16.11.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-manifest-plugin": "^3.0.0-rc.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node src/server/app.js",
+    "build": "NODE_ENV=production webpack",
+    "webpack-dev-server": "NODE_ENV=development webpack-dev-server --hot --inline",
+    "server:dev": "NODE_ENV=development node src/server/app.js",
+    "dev": "NODE_ENV=development yarn webpack-dev-server & yarn server:dev"
+  }
+}
