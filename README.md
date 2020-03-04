@@ -13,7 +13,7 @@ yarn
 
 ## Development Mode
 
-To run using `webpack-dev-server` and `nodemon`, use the below command:
+To run using `webpack-dev-server` and `nodemon`, use the belowcommand:
 ```
 npm run dev
 ```
@@ -25,4 +25,3 @@ To run a production build (although it's not recommended to use this in producti
 npm run build
 npm start
 ```
-

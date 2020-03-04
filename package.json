@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.2.6",
     "compression": "^1.7.4",
     "core-js": "3",
     "express": "^4.17.1",
@@ -39,7 +40,7 @@
   "scripts": {
     "start": "NODE_ENV=production node src/server/app.js",
     "build": "NODE_ENV=production webpack",
-    "webpack-dev-server": "NODE_ENV=development webpack-dev-server --hot --inline",
+    "webpack-dev-server": "NODE_ENV=development webpack-dev-server --hot",
     "server:dev": "NODE_ENV=development node src/server/app.js",
     "dev": "NODE_ENV=development yarn webpack-dev-server & yarn server:dev"
   }
