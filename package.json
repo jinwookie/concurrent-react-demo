@@ -9,7 +9,7 @@
     "core-js": "3",
     "express": "^4.17.1",
     "query-string": "^6.9.0",
-    "react": "0.0.0-experimental-5de5b6150",
+    "react": "0.14.0",
     "react-dom": "0.0.0-experimental-5de5b6150",
     "react-hot-loader": "^4.12.18",
     "react-router-config": "^5.1.1",
