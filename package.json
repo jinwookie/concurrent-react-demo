@@ -7,7 +7,7 @@
     "classnames": "^2.2.6",
     "compression": "^1.7.4",
     "core-js": "3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "query-string": "^6.9.0",
     "react": "0.0.0-experimental-5de5b6150",
     "react-dom": "0.0.0-experimental-5de5b6150",
